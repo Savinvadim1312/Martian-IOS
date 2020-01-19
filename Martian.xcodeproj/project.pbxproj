@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15AE43B62B6023BB9FC82427 /* libPods-MartianTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C4D9224761F5CF1564BED /* libPods-MartianTests.a */; };
+		7D181B3323D1AB8D0019BF25 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D181B3223D1AB8D0019BF25 /* UIViewController+Extension.swift */; };
+		7D181B3E23D1BCF70019BF25 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D181B3D23D1BCF70019BF25 /* NetworkManagerTests.swift */; };
+		7D181B3F23D1BD020019BF25 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEDF923D04AA400F42452 /* NetworkManager.swift */; };
+		7D181B4023D1BD430019BF25 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2523D09FA400F42452 /* Photo.swift */; };
+		7D181B4123D1BD460019BF25 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2923D0A09800F42452 /* Photos.swift */; };
+		7D181B4223D1BD480019BF25 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2723D0A02400F42452 /* Camera.swift */; };
+		7D181B4323D1BD4B0019BF25 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE1A23D089CE00F42452 /* Rover.swift */; };
+		7D181B4423D1BD4E0019BF25 /* Rovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2123D09C7D00F42452 /* Rovers.swift */; };
+		7DDEEDC823D049FE00F42452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEDC723D049FE00F42452 /* AppDelegate.swift */; };
+		7DDEEDCA23D049FE00F42452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEDC923D049FE00F42452 /* SceneDelegate.swift */; };
+		7DDEEDCF23D049FE00F42452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEEDCD23D049FE00F42452 /* Main.storyboard */; };
+		7DDEEDD123D04A0000F42452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEEDD023D04A0000F42452 /* Assets.xcassets */; };
+		7DDEEDD423D04A0000F42452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEEDD223D04A0000F42452 /* LaunchScreen.storyboard */; };
+		7DDEEDDF23D04A0000F42452 /* MartianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEDDE23D04A0000F42452 /* MartianTests.swift */; };
+		7DDEEDEA23D04A0000F42452 /* MartianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEDE923D04A0000F42452 /* MartianUITests.swift */; };
+		7DDEEDFA23D04AA400F42452 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEDF923D04AA400F42452 /* NetworkManager.swift */; };
+		7DDEEE0323D04FBE00F42452 /* RoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE0123D04FBE00F42452 /* RoverCollectionViewCell.swift */; };
+		7DDEEE0423D04FBE00F42452 /* RoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEEE0223D04FBE00F42452 /* RoverCollectionViewCell.xib */; };
+		7DDEEE0723D0507B00F42452 /* MarsRoverPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE0623D0507B00F42452 /* MarsRoverPhotoViewController.swift */; };
+		7DDEEE0B23D0515100F42452 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE0923D0515100F42452 /* ReusableCell.swift */; };
+		7DDEEE0C23D0515100F42452 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE0A23D0515100F42452 /* NibLoadableView.swift */; };
+		7DDEEE0E23D0595D00F42452 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE0D23D0595D00F42452 /* UICollectionView+Extension.swift */; };
+		7DDEEE1023D063C000F42452 /* PhotosFromSelectedRoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE0F23D063C000F42452 /* PhotosFromSelectedRoverViewController.swift */; };
+		7DDEEE1423D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE1223D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.swift */; };
+		7DDEEE1523D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEEE1323D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.xib */; };
+		7DDEEE1723D06A5300F42452 /* DetailedPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE1623D06A5300F42452 /* DetailedPhotoViewController.swift */; };
+		7DDEEE1B23D089CE00F42452 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE1A23D089CE00F42452 /* Rover.swift */; };
+		7DDEEE2023D09A1600F42452 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE1F23D09A1600F42452 /* UIImageView+Extension.swift */; };
+		7DDEEE2223D09C7D00F42452 /* Rovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2123D09C7D00F42452 /* Rovers.swift */; };
+		7DDEEE2623D09FA400F42452 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2523D09FA400F42452 /* Photo.swift */; };
+		7DDEEE2823D0A02400F42452 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2723D0A02400F42452 /* Camera.swift */; };
+		7DDEEE2A23D0A09800F42452 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEEE2923D0A09800F42452 /* Photos.swift */; };
+		C4D4399B2619DC702029CC3D /* Pods_Martian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572A191BBE938D1002EB525D /* Pods_Martian.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DDEEDDB23D04A0000F42452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDEEDBC23D049FE00F42452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDEEDC323D049FE00F42452;
+			remoteInfo = Martian;
+		};
+		7DDEEDE623D04A0000F42452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDEEDBC23D049FE00F42452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDEEDC323D049FE00F42452;
+			remoteInfo = Martian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4429154BEB7503F0D02E7D9F /* Pods-MartianTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianTests.debug.xcconfig"; path = "Target Support Files/Pods-MartianTests/Pods-MartianTests.debug.xcconfig"; sourceTree = "<group>"; };
+		572A191BBE938D1002EB525D /* Pods_Martian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Martian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D181B3223D1AB8D0019BF25 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		7D181B3D23D1BCF70019BF25 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		7DDEEDC423D049FE00F42452 /* Martian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Martian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDEEDC723D049FE00F42452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DDEEDC923D049FE00F42452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DDEEDCE23D049FE00F42452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DDEEDD023D04A0000F42452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DDEEDD323D04A0000F42452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DDEEDD523D04A0000F42452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDEEDDA23D04A0000F42452 /* MartianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MartianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDEEDDE23D04A0000F42452 /* MartianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MartianTests.swift; sourceTree = "<group>"; };
+		7DDEEDE023D04A0000F42452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDEEDE523D04A0000F42452 /* MartianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MartianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDEEDE923D04A0000F42452 /* MartianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MartianUITests.swift; sourceTree = "<group>"; };
+		7DDEEDEB23D04A0000F42452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDEEDF923D04AA400F42452 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7DDEEE0123D04FBE00F42452 /* RoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		7DDEEE0223D04FBE00F42452 /* RoverCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoverCollectionViewCell.xib; sourceTree = "<group>"; };
+		7DDEEE0623D0507B00F42452 /* MarsRoverPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverPhotoViewController.swift; sourceTree = "<group>"; };
+		7DDEEE0923D0515100F42452 /* ReusableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		7DDEEE0A23D0515100F42452 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		7DDEEE0D23D0595D00F42452 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		7DDEEE0F23D063C000F42452 /* PhotosFromSelectedRoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosFromSelectedRoverViewController.swift; sourceTree = "<group>"; };
+		7DDEEE1223D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFromSelectedRoverCollectionViewCell.swift; sourceTree = "<group>"; };
+		7DDEEE1323D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoFromSelectedRoverCollectionViewCell.xib; sourceTree = "<group>"; };
+		7DDEEE1623D06A5300F42452 /* DetailedPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPhotoViewController.swift; sourceTree = "<group>"; };
+		7DDEEE1A23D089CE00F42452 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		7DDEEE1F23D09A1600F42452 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		7DDEEE2123D09C7D00F42452 /* Rovers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rovers.swift; sourceTree = "<group>"; };
+		7DDEEE2523D09FA400F42452 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		7DDEEE2723D0A02400F42452 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		7DDEEE2923D0A09800F42452 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		D51604B29357E2805B71D371 /* Pods-Martian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Martian.release.xcconfig"; path = "Target Support Files/Pods-Martian/Pods-Martian.release.xcconfig"; sourceTree = "<group>"; };
+		E50C1358D38385365D6FA20E /* Pods-MartianTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MartianTests.release.xcconfig"; path = "Target Support Files/Pods-MartianTests/Pods-MartianTests.release.xcconfig"; sourceTree = "<group>"; };
+		F973D536D44190216A8499B9 /* Pods-Martian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Martian.debug.xcconfig"; path = "Target Support Files/Pods-Martian/Pods-Martian.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3C4D9224761F5CF1564BED /* libPods-MartianTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MartianTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DDEEDC123D049FE00F42452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D4399B2619DC702029CC3D /* Pods_Martian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEEDD723D04A0000F42452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AE43B62B6023BB9FC82427 /* libPods-MartianTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEEDE223D04A0000F42452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25796917C6498D779B41C155 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				572A191BBE938D1002EB525D /* Pods_Martian.framework */,
+				FC3C4D9224761F5CF1564BED /* libPods-MartianTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DDEEDBB23D049FE00F42452 = {
+			isa = PBXGroup;
+			children = (
+				7DDEEDC623D049FE00F42452 /* Martian */,
+				7DDEEDDD23D04A0000F42452 /* MartianTests */,
+				7DDEEDE823D04A0000F42452 /* MartianUITests */,
+				7DDEEDC523D049FE00F42452 /* Products */,
+				E10E006184843C46215B82C6 /* Pods */,
+				25796917C6498D779B41C155 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDEEDC523D049FE00F42452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEDC423D049FE00F42452 /* Martian.app */,
+				7DDEEDDA23D04A0000F42452 /* MartianTests.xctest */,
+				7DDEEDE523D04A0000F42452 /* MartianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDEEDC623D049FE00F42452 /* Martian */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE0823D050FF00F42452 /* SupportFile */,
+				7DDEEDF723D04A7000F42452 /* Servicies */,
+				7DDEEDFB23D04B1400F42452 /* Model */,
+				7DDEEDFC23D04B1A00F42452 /* View */,
+				7DDEEDFD23D04B2100F42452 /* Controller */,
+				7DDEEDC723D049FE00F42452 /* AppDelegate.swift */,
+				7DDEEDC923D049FE00F42452 /* SceneDelegate.swift */,
+				7DDEEDD023D04A0000F42452 /* Assets.xcassets */,
+				7DDEEDD223D04A0000F42452 /* LaunchScreen.storyboard */,
+				7DDEEDD523D04A0000F42452 /* Info.plist */,
+			);
+			path = Martian;
+			sourceTree = "<group>";
+		};
+		7DDEEDDD23D04A0000F42452 /* MartianTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEDDE23D04A0000F42452 /* MartianTests.swift */,
+				7DDEEDE023D04A0000F42452 /* Info.plist */,
+				7D181B3D23D1BCF70019BF25 /* NetworkManagerTests.swift */,
+			);
+			path = MartianTests;
+			sourceTree = "<group>";
+		};
+		7DDEEDE823D04A0000F42452 /* MartianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEDE923D04A0000F42452 /* MartianUITests.swift */,
+				7DDEEDEB23D04A0000F42452 /* Info.plist */,
+			);
+			path = MartianUITests;
+			sourceTree = "<group>";
+		};
+		7DDEEDF723D04A7000F42452 /* Servicies */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEDF823D04A8E00F42452 /* Network */,
+			);
+			path = Servicies;
+			sourceTree = "<group>";
+		};
+		7DDEEDF823D04A8E00F42452 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEDF923D04AA400F42452 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7DDEEDFB23D04B1400F42452 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE2423D09F8A00F42452 /* Photo */,
+				7DDEEE2323D09F6000F42452 /* Rower */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DDEEDFC23D04B1A00F42452 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE0023D04EA400F42452 /* RoverCollectionViewCell */,
+				7DDEEE1123D063F900F42452 /* PhotoFromSelectedRover */,
+				7DDEEDCD23D049FE00F42452 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DDEEDFD23D04B2100F42452 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE0623D0507B00F42452 /* MarsRoverPhotoViewController.swift */,
+				7DDEEE0F23D063C000F42452 /* PhotosFromSelectedRoverViewController.swift */,
+				7DDEEE1623D06A5300F42452 /* DetailedPhotoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DDEEE0023D04EA400F42452 /* RoverCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE0123D04FBE00F42452 /* RoverCollectionViewCell.swift */,
+				7DDEEE0223D04FBE00F42452 /* RoverCollectionViewCell.xib */,
+			);
+			path = RoverCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		7DDEEE0823D050FF00F42452 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE1C23D096DA00F42452 /* Extensions */,
+				7DDEEE0A23D0515100F42452 /* NibLoadableView.swift */,
+				7DDEEE0923D0515100F42452 /* ReusableCell.swift */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		7DDEEE1123D063F900F42452 /* PhotoFromSelectedRover */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE1223D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.swift */,
+				7DDEEE1323D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.xib */,
+			);
+			path = PhotoFromSelectedRover;
+			sourceTree = "<group>";
+		};
+		7DDEEE1C23D096DA00F42452 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE0D23D0595D00F42452 /* UICollectionView+Extension.swift */,
+				7DDEEE1F23D09A1600F42452 /* UIImageView+Extension.swift */,
+				7D181B3223D1AB8D0019BF25 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7DDEEE2323D09F6000F42452 /* Rower */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE1A23D089CE00F42452 /* Rover.swift */,
+				7DDEEE2123D09C7D00F42452 /* Rovers.swift */,
+			);
+			path = Rower;
+			sourceTree = "<group>";
+		};
+		7DDEEE2423D09F8A00F42452 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEEE2523D09FA400F42452 /* Photo.swift */,
+				7DDEEE2923D0A09800F42452 /* Photos.swift */,
+				7DDEEE2723D0A02400F42452 /* Camera.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		E10E006184843C46215B82C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F973D536D44190216A8499B9 /* Pods-Martian.debug.xcconfig */,
+				D51604B29357E2805B71D371 /* Pods-Martian.release.xcconfig */,
+				4429154BEB7503F0D02E7D9F /* Pods-MartianTests.debug.xcconfig */,
+				E50C1358D38385365D6FA20E /* Pods-MartianTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DDEEDC323D049FE00F42452 /* Martian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDEEDEE23D04A0000F42452 /* Build configuration list for PBXNativeTarget "Martian" */;
+			buildPhases = (
+				36784FD59BA09C4EEBB4B750 /* [CP] Check Pods Manifest.lock */,
+				7DDEEDC023D049FE00F42452 /* Sources */,
+				7DDEEDC123D049FE00F42452 /* Frameworks */,
+				7DDEEDC223D049FE00F42452 /* Resources */,
+				7298C5F5E3B0914A881E625C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Martian;
+			productName = Martian;
+			productReference = 7DDEEDC423D049FE00F42452 /* Martian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DDEEDD923D04A0000F42452 /* MartianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDEEDF123D04A0000F42452 /* Build configuration list for PBXNativeTarget "MartianTests" */;
+			buildPhases = (
+				DA41AEFFB2AA236AE825D97A /* [CP] Check Pods Manifest.lock */,
+				7DDEEDD623D04A0000F42452 /* Sources */,
+				7DDEEDD723D04A0000F42452 /* Frameworks */,
+				7DDEEDD823D04A0000F42452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DDEEDDC23D04A0000F42452 /* PBXTargetDependency */,
+			);
+			name = MartianTests;
+			productName = MartianTests;
+			productReference = 7DDEEDDA23D04A0000F42452 /* MartianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DDEEDE423D04A0000F42452 /* MartianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDEEDF423D04A0000F42452 /* Build configuration list for PBXNativeTarget "MartianUITests" */;
+			buildPhases = (
+				7DDEEDE123D04A0000F42452 /* Sources */,
+				7DDEEDE223D04A0000F42452 /* Frameworks */,
+				7DDEEDE323D04A0000F42452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DDEEDE723D04A0000F42452 /* PBXTargetDependency */,
+			);
+			name = MartianUITests;
+			productName = MartianUITests;
+			productReference = 7DDEEDE523D04A0000F42452 /* MartianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDEEDBC23D049FE00F42452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = vadimj;
+				TargetAttributes = {
+					7DDEEDC323D049FE00F42452 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7DDEEDD923D04A0000F42452 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7DDEEDC323D049FE00F42452;
+					};
+					7DDEEDE423D04A0000F42452 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7DDEEDC323D049FE00F42452;
+					};
+				};
+			};
+			buildConfigurationList = 7DDEEDBF23D049FE00F42452 /* Build configuration list for PBXProject "Martian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DDEEDBB23D049FE00F42452;
+			productRefGroup = 7DDEEDC523D049FE00F42452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DDEEDC323D049FE00F42452 /* Martian */,
+				7DDEEDD923D04A0000F42452 /* MartianTests */,
+				7DDEEDE423D04A0000F42452 /* MartianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DDEEDC223D049FE00F42452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEEDD423D04A0000F42452 /* LaunchScreen.storyboard in Resources */,
+				7DDEEE1523D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.xib in Resources */,
+				7DDEEE0423D04FBE00F42452 /* RoverCollectionViewCell.xib in Resources */,
+				7DDEEDD123D04A0000F42452 /* Assets.xcassets in Resources */,
+				7DDEEDCF23D049FE00F42452 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEEDD823D04A0000F42452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEEDE323D04A0000F42452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36784FD59BA09C4EEBB4B750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Martian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7298C5F5E3B0914A881E625C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Martian/Pods-Martian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Martian/Pods-Martian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Martian/Pods-Martian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA41AEFFB2AA236AE825D97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MartianTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DDEEDC023D049FE00F42452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D181B3323D1AB8D0019BF25 /* UIViewController+Extension.swift in Sources */,
+				7DDEEE2A23D0A09800F42452 /* Photos.swift in Sources */,
+				7DDEEE2623D09FA400F42452 /* Photo.swift in Sources */,
+				7DDEEE1723D06A5300F42452 /* DetailedPhotoViewController.swift in Sources */,
+				7DDEEE2823D0A02400F42452 /* Camera.swift in Sources */,
+				7DDEEE2023D09A1600F42452 /* UIImageView+Extension.swift in Sources */,
+				7DDEEE0E23D0595D00F42452 /* UICollectionView+Extension.swift in Sources */,
+				7DDEEDFA23D04AA400F42452 /* NetworkManager.swift in Sources */,
+				7DDEEE0323D04FBE00F42452 /* RoverCollectionViewCell.swift in Sources */,
+				7DDEEE0C23D0515100F42452 /* NibLoadableView.swift in Sources */,
+				7DDEEE0B23D0515100F42452 /* ReusableCell.swift in Sources */,
+				7DDEEE0723D0507B00F42452 /* MarsRoverPhotoViewController.swift in Sources */,
+				7DDEEDC823D049FE00F42452 /* AppDelegate.swift in Sources */,
+				7DDEEE1B23D089CE00F42452 /* Rover.swift in Sources */,
+				7DDEEE1423D0644E00F42452 /* PhotoFromSelectedRoverCollectionViewCell.swift in Sources */,
+				7DDEEE1023D063C000F42452 /* PhotosFromSelectedRoverViewController.swift in Sources */,
+				7DDEEDCA23D049FE00F42452 /* SceneDelegate.swift in Sources */,
+				7DDEEE2223D09C7D00F42452 /* Rovers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEEDD623D04A0000F42452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D181B4423D1BD4E0019BF25 /* Rovers.swift in Sources */,
+				7D181B4023D1BD430019BF25 /* Photo.swift in Sources */,
+				7D181B3F23D1BD020019BF25 /* NetworkManager.swift in Sources */,
+				7D181B4223D1BD480019BF25 /* Camera.swift in Sources */,
+				7D181B3E23D1BCF70019BF25 /* NetworkManagerTests.swift in Sources */,
+				7D181B4123D1BD460019BF25 /* Photos.swift in Sources */,
+				7DDEEDDF23D04A0000F42452 /* MartianTests.swift in Sources */,
+				7D181B4323D1BD4B0019BF25 /* Rover.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDEEDE123D04A0000F42452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEEDEA23D04A0000F42452 /* MartianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DDEEDDC23D04A0000F42452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDEEDC323D049FE00F42452 /* Martian */;
+			targetProxy = 7DDEEDDB23D04A0000F42452 /* PBXContainerItemProxy */;
+		};
+		7DDEEDE723D04A0000F42452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDEEDC323D049FE00F42452 /* Martian */;
+			targetProxy = 7DDEEDE623D04A0000F42452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DDEEDCD23D049FE00F42452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEEDCE23D049FE00F42452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DDEEDD223D04A0000F42452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEEDD323D04A0000F42452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DDEEDEC23D04A0000F42452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DDEEDED23D04A0000F42452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DDEEDEF23D04A0000F42452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F973D536D44190216A8499B9 /* Pods-Martian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N4S78VY2;
+				INFOPLIST_FILE = Martian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vadimsavin.Martian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DDEEDF023D04A0000F42452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51604B29357E2805B71D371 /* Pods-Martian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N4S78VY2;
+				INFOPLIST_FILE = Martian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vadimsavin.Martian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DDEEDF223D04A0000F42452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4429154BEB7503F0D02E7D9F /* Pods-MartianTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N4S78VY2;
+				INFOPLIST_FILE = MartianTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VJ.MartianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martian.app/Martian";
+			};
+			name = Debug;
+		};
+		7DDEEDF323D04A0000F42452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50C1358D38385365D6FA20E /* Pods-MartianTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N4S78VY2;
+				INFOPLIST_FILE = MartianTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VJ.MartianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martian.app/Martian";
+			};
+			name = Release;
+		};
+		7DDEEDF523D04A0000F42452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N4S78VY2;
+				INFOPLIST_FILE = MartianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VJ.MartianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Martian;
+			};
+			name = Debug;
+		};
+		7DDEEDF623D04A0000F42452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5N4S78VY2;
+				INFOPLIST_FILE = MartianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VJ.MartianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Martian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DDEEDBF23D049FE00F42452 /* Build configuration list for PBXProject "Martian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEEDEC23D04A0000F42452 /* Debug */,
+				7DDEEDED23D04A0000F42452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDEEDEE23D04A0000F42452 /* Build configuration list for PBXNativeTarget "Martian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEEDEF23D04A0000F42452 /* Debug */,
+				7DDEEDF023D04A0000F42452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDEEDF123D04A0000F42452 /* Build configuration list for PBXNativeTarget "MartianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEEDF223D04A0000F42452 /* Debug */,
+				7DDEEDF323D04A0000F42452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDEEDF423D04A0000F42452 /* Build configuration list for PBXNativeTarget "MartianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEEDF523D04A0000F42452 /* Debug */,
+				7DDEEDF623D04A0000F42452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDEEDBC23D049FE00F42452 /* Project object */;
+}
